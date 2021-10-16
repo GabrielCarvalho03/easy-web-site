@@ -22,12 +22,44 @@ body{
 
 
 
-@media (min-width: 576px) { 
-  #grad{
-     display: flex;
-     flex-direction: column;
-  }
- #box-small{
-     margin-top: 150px;
+
+
+
+@media(min-width:300px  ){
+    .small{
+        display: flex;
+        flex-direction: column;
+      
+     }
+    .box-small{
+        margin-top: 300px;
+    }
+    
+}
+@media (max-width: 575.98px) {   
+      .small{
+    display: flex;
+    flex-direction: column;
+  
  }
- }
+.box-small{
+    margin-top: 300px;
+} }
+
+@media(min-width:700px  ){
+    .lg{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-lg{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+        height: 200vh;
+        background-position:center;
+
+    }
+}
